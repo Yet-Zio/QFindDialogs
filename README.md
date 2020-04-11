@@ -1,6 +1,8 @@
 # QFindDialogs
 A custom working Qt-based dialog with Find, Replace and RegEX search functionalities based on the Extension Example.
+You are Free to use this project under the BSD-3 Clause License. Please refer the License Terms for your project compatibility.
 There are two available dialogs:
+
 * [Find Dialog](#finddialog)
 * [Find and Replace Dialog](#findreplacedialog)
 
