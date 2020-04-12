@@ -67,9 +67,9 @@ There are two available dialogs:
 ###### Constructs a Find and Replace Dialog with the given parent.
 ###### FindReplaceDialog inherits from QDialog and contains all the functions and properties from FindDialog.
 #### *void* FindReplaceDialog::setEditor(QPlainTextEdit *editor)
-###### Sets the current active editor of the find dialog object to the specified one.
+###### Sets the current active editor of the find and replace dialog object to the specified one.
 #### *QPlainTextEdit** FindReplaceDialog::getEditor()
-###### Returns the current active editor of the find dialog object.
+###### Returns the current active editor of the find and replace dialog object.
 #### *void* FindReplaceDialog::find()
 ###### Finds the query text from the find field in the editor, sets a selection to the found substring and sets the cursor at the end.
 ###### find() checks various checkboxes and does the exact search function.
