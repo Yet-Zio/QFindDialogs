@@ -55,7 +55,7 @@ There are two available dialogs:
 #### *void* FindDialog::setEditor(QPlainTextEdit *editor)
 ###### Sets the current active editor of the find dialog object to the specified one.
 #### *QPlainTextEdit** FindDialog::getEditor()
-###### Returns the current active editor of the find dialog object to the specified one.
+###### Returns the current active editor of the find dialog object.
 #### *void* FindDialog::find()
 ###### Finds the query text in the find field, sets a selection to the found substring and sets the cursor at the end.
 ###### find() checks various checkboxes and does the exact search function.
@@ -69,7 +69,7 @@ There are two available dialogs:
 #### *void* FindReplaceDialog::setEditor(QPlainTextEdit *editor)
 ###### Sets the current active editor of the find dialog object to the specified one.
 #### *QPlainTextEdit** FindReplaceDialog::getEditor()
-###### Returns the current active editor of the find dialog object to the specified one.
+###### Returns the current active editor of the find dialog object.
 #### *void* FindReplaceDialog::find()
 ###### Finds the query text in the find field, sets a selection to the found substring and sets the cursor at the end.
 ###### find() checks various checkboxes and does the exact search function.
