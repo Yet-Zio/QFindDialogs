@@ -9,30 +9,30 @@ There are two available dialogs:
 ### Public Functions (FindDialog)
 | Type                 | Function                                |
 | -------------------- | --------------------------------------- |
-| *explicit*           |  [FindDialog](#documentation)(QWidget *parent = nullptr)  |
-| *void*               |  [setEditor](#documentation)(QPlainTextEdit *editor)      |
-| *QPlainTextEdit**    |  [getEditor](#documentation)()                            |
+| *explicit*           |  [FindDialog](#explicit-finddialogfinddialogqwidget-parent--nullptr)(QWidget *parent = nullptr)  |
+| *void*               |  [setEditor](#void-finddialogseteditorqplaintextedit-editor)(QPlainTextEdit *editor)      |
+| *QPlainTextEdit**    |  [getEditor](#qplaintextedit-finddialoggeteditor)()                            |
 
 ### Private Slots (FindDialog)
 | Type                 | Function                                |
 | -------------------- | --------------------------------------- |
-| *void*               | [find](#documentation)()                                  |
-| *void*               | [regexMode](#documentation)()                             |
+| *void*               | [find](#void-finddialogfind)()                                  |
+| *void*               | [regexMode](#void-finddialogregexmode)()                             |
 
 ### Public Functions (FindReplaceDialog)
 | Type                 | Function                                |
 | -------------------- | --------------------------------------- |
-| *explicit*           |  [FindReplaceDialog](#documentation)(QWidget *parent = *nullptr*)|
-| *void*               |  [setEditor](#documentation)(QPlainTextEdit *editor)      |
-| *QPlainTextEdit**    |  [getEditor](#documentation)()                            |
+| *explicit*           |  [FindReplaceDialog](#explicit-findreplacedialogfindreplacedialogqwidget-parent--nullptr)(QWidget *parent = *nullptr*)|
+| *void*               |  [setEditor](#void-findreplacedialogseteditorqplaintextedit-editor)(QPlainTextEdit *editor)      |
+| *QPlainTextEdit**    |  [getEditor](#qplaintextedit-findreplacedialoggeteditor)()                            |
 
 ### Private Slots (FindReplaceDialog)
 | Type                 | Function                                |
 | -------------------- | --------------------------------------- |
-| *void*               | [find](#documentation)()                                  |
-| *void*               | [replace](#documentation)()                               |
-| *void*               | [replaceAll](#documentation)()                            |
-| *void*               | [regexMode](#documentation)()                             |
+| *void*               | [find](#void-findreplacedialogfind)()                                  |
+| *void*               | [replace](#void-findreplacedialogreplace)()                               |
+| *void*               | [replaceAll](#void-findreplacedialogreplaceall)()                            |
+| *void*               | [regexMode](#void-findreplacedialogregexmode)()                             |
 
 ## FindDialog
 #### Sample Images:
