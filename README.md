@@ -57,7 +57,7 @@ There are two available dialogs:
 #### *QPlainTextEdit** FindDialog::getEditor()
 ###### Returns the current active editor of the find dialog object.
 #### *void* FindDialog::find()
-###### Finds the query text in the find field, sets a selection to the found substring and sets the cursor at the end.
+###### Finds the query text from the find field in the editor, sets a selection to the found substring and sets the cursor at the end.
 ###### find() checks various checkboxes and does the exact search function.
 #### *void* FindDialog::regexMode()
 ###### If regex-CheckBox is ticked, this method runs ensuring a Regular Expression mode for the find dialog to
@@ -71,7 +71,7 @@ There are two available dialogs:
 #### *QPlainTextEdit** FindReplaceDialog::getEditor()
 ###### Returns the current active editor of the find dialog object.
 #### *void* FindReplaceDialog::find()
-###### Finds the query text in the find field, sets a selection to the found substring and sets the cursor at the end.
+###### Finds the query text from the find field in the editor, sets a selection to the found substring and sets the cursor at the end.
 ###### find() checks various checkboxes and does the exact search function.
 #### *void* FindReplaceDialog::replace()
 ###### Replaces the query selected by the find() and sets the cursor at the end of the replaced substring.
