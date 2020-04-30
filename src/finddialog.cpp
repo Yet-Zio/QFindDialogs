@@ -88,13 +88,6 @@ FindDialog::FindDialog(QWidget *parent)
     topLeftLayout->addWidget(label);
     topLeftLayout->addWidget(lineEdit);
 
-    caseCheckBox->setStyleSheet(QString::fromUtf8("QCheckBox:disabled {"
-                                                  " background-color: rgb(115, 115, 115);"
-                                                  "}"));
-    wholeWordsCheckBox->setStyleSheet(QString::fromUtf8("QCheckBox:disabled {"
-                                                        " background-color: rgb(115, 115, 115);"
-                                                        "}"));
-
     QVBoxLayout *leftLayout = new QVBoxLayout;
     leftLayout->addLayout(topLeftLayout);
     leftLayout->addWidget(caseCheckBox);
