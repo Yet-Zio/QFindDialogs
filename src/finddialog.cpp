@@ -1,5 +1,5 @@
 /*
-* Copyright (C) 2020 Master-Console Inc.
+* Copyright (C) 2021 Yet-Zio
 
 * Redistribution and use in source and binary forms,
 * with or without modification, are permitted provided
